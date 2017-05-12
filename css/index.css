@@ -1,0 +1,53 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url(../img/bg.jpg);
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background: #ccc;
+    text-align: center;
+    line-height: 100px;
+    /*border-bottom: 1px solid red;*/
+    /*position: fixed;*/
+}
+#header a{
+    color: #333;
+    font-size: 2em;
+}
+#wap{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#nav ul{
+    overflow: hidden;
+}
+#nav li{
+    float: left;
+    width: 200px;
+    height: 50px;
+    background: red;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+#nav li a{
+    color: #fff;
+}
+#nav li:hover{
+    background: #eee;
+}
+#nav li:hover a{
+    color: red;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+    text-align: center;
+    line-height: 50px;
+}
