@@ -5,8 +5,9 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/indexa.css">
 </head>
-<body>
+<body onload="startTime()">
     <div id="header">
         <a href="index.html">LOGO</a>
     </div>
@@ -22,9 +23,34 @@
                 <li><a href="contactme.html">联系我</a></li>
             </ul>
         </div>
+        <div id="content">
+            <div id="container">
+                <div><img src="img/1.jpg"><a>1</a></div>
+                <div><img src="img/2.jpg"><a>2</a></div>
+                <div><img src="img/3.jpg"><a>3</a></div>
+                <div><img src="img/4.jpg"><a>4</a></div>
+                <div><img src="img/5.jpg"><a>5</a></div>
+            </div>
+            <div id="artical">
+                <h3>我爱学习</h3>
+                <p>我爱学习，学习使我快乐，优秀是一种习惯。<br/>
+                    我徜徉在知识的海洋里，<br/>吮吸着知识的雨露。<br/>
+                    妈妈叫我吃饭，我充耳不闻；<br/>
+                    爸爸喊我喝水，我无动于衷；<br/>
+                    奶奶喊我睡觉，我百般推辞。<br/>
+                    世上只有一种稳赚不赔的投资，那就是学习！<br/>
+                    我只想告诉你们，<br/>烟可以抽，酒可以喝，容可以整，架可以打，炮可以约，逼可以装，<br/>但你要是不爱学习，对不起，我们做不了朋友！<br/>
+                    我爱读书！我爱学习！学习使我快乐！</p>
+                <!--<img src="img/book.jpg" alt="">-->
+            </div>
+            <div id="webtime">
+            当前时间：<font color="#333"><span id="nowDateTimeSpan"></span></font>
+            </div>
+        </div>
     </div>
     <div id="footer" class="copyright">
         Copyright &copy; 2017 版权所有
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>

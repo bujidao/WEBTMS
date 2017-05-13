@@ -1,0 +1,9 @@
+#content{
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid #000;
+}
+#content h1{
+    line-height: 100px;
+}

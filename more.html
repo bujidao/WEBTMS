@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/more.css">
 </head>
 <body>
     <div id="header">
@@ -25,6 +26,51 @@
         <div id="content">
             <form action="" method="post">
                 <h2>请输入你的详细信息，以便我们更好的联系你</h2>
+                <div id="container">
+                    <label>姓名： <input type="text" id="username" placeholder="你的名字"></label><br/>
+                    <label>姓名： <input type="email" id="email"placeholder="你的邮箱"></label><br/>
+                    <label for="">
+                        性别： <input type="radio" name="sex">男 <input type="radio" name="sex">女
+                    </label><br/>
+                    <label for="">
+                        年龄：
+                        <select name="" id="">
+                            <option value="">17岁以下</option>
+                            <option value="" selected>18-35岁</option>
+                            <option value="">35-60岁</option>
+                            <option value="">60岁以上</option>
+                        </select>
+                    </label>
+                    <label for="">
+                        <p>您的最高学历</p>
+                        <input type="radio" name="deg">博士
+                        <input type="radio" name="deg">硕士
+                        <input type="radio" name="deg">学士
+                        <input type="radio" name="deg">大专
+                        <input type="radio" name="deg">其他
+                    </label>
+                    <label for="">
+                        <p>你喜欢中国，是因为：</p>
+                        <input type="checkbox" name="reason">中国是世界上最安全的国家<br/>
+                        <input type="checkbox" name="reason">中国有很多好吃的<br/>
+                        <input type="checkbox" name="reason">中国有很多美女<br/>
+                    </label>
+                    <label for="">
+                        <p>你的头像</p>
+                        <div class="fuck">
+                            <img src="img/1.jpg" alt="">
+                        </div>
+                    </label>
+                    <label for="">
+                        <p>你的建议</p>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </label>
+                    <label for="">
+                        <p>上传文件</p>
+                        <input type="file" name="fileup">
+                    </label><br />
+                    <input type="reset" value="重置"><input type="submit" value="提交">
+                </div>
             </form>
         </div>
     </div>

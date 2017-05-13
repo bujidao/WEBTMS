@@ -1,0 +1,29 @@
+#container{
+    width: 100%;
+    height: 500px;
+    /*margin: 100px auto;*/
+    /*overflow: hidden;*/
+    display: -webkit-box;
+}
+
+#container div{
+    width: 0;
+    -webkit-box-flex: 1;
+    overflow: hidden;
+    height: 500px;
+    -webkit-transition: all 1s ease;
+}
+
+#container div:hover{
+    width: 50%;
+}
+#artical{
+    width: 80%;
+    margin: 50px auto;
+}
+#artical p{
+    line-height:50px;
+}
+#webtime{
+    text-align: center;
+}
